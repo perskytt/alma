@@ -82,14 +82,16 @@ public class AlmaCalendar extends JFrame {
 		
 		}
 		
-		
-    
-	
-	
-	public static void main(String[] args) {
-		
-		new AlmaCalendar();
-    
+	class CustomActionListener implements ActionListener{
+	      public void actionPerformed(ActionEvent e) {
+	    	  
+	      }
 	}
-
 }
+	       
+    
+	
+	
+	
+
+
